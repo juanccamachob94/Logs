@@ -1,10 +1,10 @@
 require('dotenv').config();
 const SchemaModel = require('../models/SchemaModel');
 
-class EnVivo extends SchemaModel {
+class Noticias extends SchemaModel {
   constructor() {
     super();
-    this.url = process.env.URL_EN_VIVO;
+    this.url = process.env.URL_NOTICIAS;
   }
 
   getUrl() {
@@ -12,4 +12,4 @@ class EnVivo extends SchemaModel {
   }
 }
 
-module.exports = EnVivo
+module.exports = Noticias;

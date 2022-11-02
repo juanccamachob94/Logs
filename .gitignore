@@ -1,1 +1,3 @@
 node_modules/
+rds-combined-ca-bundle-DBDev.pem
+.env
